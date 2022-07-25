@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(248, 167, 60, 0.795);
+    width: 100vw;
+    height: 100vh;
+}
+.caixa-intrucao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 5px;
+    width: 40%;
+}
+input{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: max(12px, 1vw);
+    letter-spacing: 1px;
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+}
+#caixa-pai{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(167, 110, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+button{
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#resultado{
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 167, 60);
+    color: aliceblue;
+    font-size: max(12px, 1vw);
+}

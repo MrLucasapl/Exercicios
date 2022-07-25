@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(248, 167, 60, 0.795);
+    width: 100vw;
+    height: 100vh;
+}
+.caixa-intrucao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 5px;
+    width: 40%;
+}
+#caixa{
+    width: 40vw;
+    height: 45vh;
+    border-radius: 5px;
+    background-color: rgb(167, 110, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img{
+    width: 30vw;
+    height: 38vh;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Exercicios15/estilo.css">
+        <title>Exercicios 15</title>
+    </head>
+    <body>
+        <div class="caixa-intrucao">
+            <p>
+                Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. 
+                Faça um programa que calcule e escreva:
+                a maior e a menor altura do grupo;
+                a média de altura das mulheres;
+                o número de homens.
+            </p>
+        </div>
+        <div class="caixa">
+            <input id="altura" type="number" placeholder="informe sua altura em cm">
+
+            <div class="opcao">
+                <input name="sexo" type="radio" value="masculino" checked>
+                <label for="masculino">masculino</label>
+
+                <input name="sexo" type="radio" value="feminino">
+                <label for="feminino">feminino</label>
+            </div>
+        
+            <button id="salvar">Salvar</button>
+            <button id="limpar">Limpar</button>
+            <button id="mostrar">Mostrar</button>
+            <div class="resultado"></div>
+            <div class="resultado"></div>
+            <div class="resultado"></div>
+            <div class="resultado"></div>
+        </div>
+        <script src="/Exercicios15/config.js"></script>
+    </body>
+</html>

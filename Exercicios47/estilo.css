@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(248, 167, 60, 0.795);
+}
+
+#resultado {
+    width: 90%;
+    height: 50%;
+    font-size: 54px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

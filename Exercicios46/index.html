@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Exercicios 46</title>
+</head>
+
+<body>
+    <div class="caixa-intrucao">
+        <p>
+            Baseado nos exemplos anteriores, crie uma forma de editar os deuses que aparecem na lista
+        </p>
+    </div>
+    <button onclick="mostrarDados()">Mostrar Personagem</button>
+
+    <div id="caixaPesquisar">
+        <input type="text" id="input-name" name="name" required placeholder="digite o nome">
+        <input type="number" id="input-power" name="power" required placeholder="digite o poder">
+        <input type="number" id="input-id" name="id" required placeholder="digite o ID">
+        <button id="button" onclick="editar()">EDITAR</button>
+    </div>
+
+    <ol id="resultado"></ol>
+    <script src="./config.js"></script>
+</body>
+
+</html>

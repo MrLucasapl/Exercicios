@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Exercicios 45</title>
+</head>
+
+<body>
+    <div class="caixa-intrucao">
+        <p>
+            Crie um array de objetos com o seguinte conteúdo:
+            [{name:'Aegir', power:10},
+            {name:'Aud', power: 5} ,
+            {name:'Balder', power:7},
+            {name:'Bragi', power:4},
+            {name: 'Búri', power:9},
+            {name: 'Dag', power:10},
+            {name:'Dellingr', power: 3}].
+        </p>
+        <ol>
+            <li>
+                Crie também um input de texto e um botão, que conforme o que o usuário digita e
+                aperta no botão de confirmação irá aparecer os deuses que contém aquele
+                caractere no nome em uma lista.
+            </li>
+            <li>
+                Crie também um select com duas opções, sendo: “do maior para o menor” e
+                “do menor para a maior” em que conforme o usuário seleciona ele ordena os deuses
+                através do poder e mostra em uma lista.
+            </li>
+            <li>
+                Crie também dois inputs de texto, um para o nome e outro para
+                poder e um botão. Será usado para cadastrar novos deuses,
+                e conforme o usuário aperta no botão vai inserindo um novo deus na lista.
+            </li>
+            <li>
+                Mostre os deuses em uma lista com um botão ao lado de
+                cada deus escrito “deletar”. Conforme o usuário aperta no
+                botão os deuses precisam sumir da lista.
+            </li>
+        </ol>
+    </div>
+
+    <div id="caixaPesquisar">
+        <input type="text" id="input" name="name" required placeholder="digite o nome do novo personagem">
+        <input type="number" id="input" name="power" required placeholder="digite o poder do novo personagem">
+        <button id="button" onclick="Cadastrar()">Cadastrar</button>
+    </div>
+
+    <div id="caixaPesquisar">
+        <input type="text" id="input-name-pesquisar" placeholder="Pesquise por um nome">
+
+        <div class="caixa-opcaos">
+            <select class="menu">
+                <option value="0" selected>do maior para o menor</option>
+                <option value="1">do menor para a maior</option>
+            </select>
+            <label class="efeito-label">Selecione um filtro</label>
+        </div>
+
+        <button id="button" onclick="Pesquisar()">Pesquisar</button>
+    </div>
+
+    <ol id="resultado"></ol>
+    <script src="./config.js"></script>
+</body>
+
+</html>

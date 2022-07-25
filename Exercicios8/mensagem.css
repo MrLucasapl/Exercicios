@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(248, 167, 60, 0.795);
+    width: 100vw;
+    height: 100vh;
+}
